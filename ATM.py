@@ -1,11 +1,13 @@
-Balance = input("Enter an initial balance:");
-Deposit = input("Enter the amount you want to deposit:");
+balance = float(input("Enter an initial balance: "))
 
-NewBalance = Balance + Deposit;
+deposit = float(input("Enter the amount you want to deposit: "))
 
-print("Current balance:",NewBalance);
+new_balance = balance + deposit
 
-withdraw = input("Enter the amount to withdraw:");
-NewBalance  = NewBalance - withdraw;
+print("Current balance:", new_balance)
 
-print("Balance after withdraw:",NewBalance);
+withdraw = float(input("Enter the amount to withdraw: "))
+
+new_balance = new_balance - withdraw
+
+print("Balance after withdrawal:", new_balance)
