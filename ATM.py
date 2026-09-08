@@ -11,3 +11,5 @@ withdraw = float(input("Enter the amount to withdraw: "))
 new_balance = new_balance - withdraw
 
 print("Balance after withdrawal:", new_balance)
+
+print("new line")
